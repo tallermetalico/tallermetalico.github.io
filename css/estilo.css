@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+header{
+    background: #8294FF;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-size: 2.6em;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.6em;
+}
+nav{
+	background: #d2ddf0; /* SIN TRANSPARENCIA: rgb(210, 221, 240); */ /* CON TRANSPARENCIA: rgba(165, 186, 224, .5); */ /* CON TRANSPARENCIA: #a5bae0 */ /* ANTES ERA rgba(255, 255, 255, .5) */
+	margin: 0px; /* 10px 5px 0px 5px */
+	padding: 5px 15px;
+	text-align: center;
+	border-radius: 0px; /* 10px */
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+	position: relative;
+	z-index: 20;
+}
+
+nav li{
+	display: inline-block;
+	list-style: name;
+	margin: 15px 25px; /* NO HABIA NADA, ESTO ES NUEVO */
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition: all .9s ease;
+}
+
+nav li:hover{
+	color: yellow; /* QUEDA SIN EFECTO AL ESPECIFICARSE: .menu li li a:hover */
+	border-radius: 10px;
+	transform: translateY(-10px);
+	box-shadow: 300px 0 #60c659 inset, /* 300px 0 #ff9338 inset */
+				-300px 0 #60c659 inset; /* -300px 0 #ff9338 inset */
+}
+
+nav li li a:hover{
+	color: yellow; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li ul{
+	display: none;
+}
+
+nav li:hover > ul{
+	display: block;
+}
+
+nav li{
+	position: relative;
+}
+
+nav li ul{
+	position: absolute;
+}
+
+nav li li{
+	background: #f0e68c;
+	display: block;
+	font-size: 11px;
+	width: 200px;
+	top: 100%;
+	margin: 15px; /* 10px */
+	border-radius: 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+
+nav li li:hover{
+	background: #f0e68c;
+	transform: translateX(15px);
+	box-shadow: 250px 0 #1cce28 inset;
+}
+
+menu a:hover{
+	color: white; /* lime */
+}
+.imagen1{
+   display: block;
+    
+    
+    
+}
+*{
+	margin: 0px; /* 5px */
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+}
+body{
+	background: chartreuse; /* SIN TRANSPARENCIA: rgb(255, 255, 255); */ /* CON TRANSPARENCIA: rgba(242, 234, 188, .5) */; /* CON TRANSPARENCIA: #f2eabc */ /* COLOR FEMENINO: #F9BFC1 */
+}
+p{
+	font-size: 1.25em;
+}
+a{
+	color: black;
+ 
+}
+img{
+	border-radius: 10px;
+}
+.imagen1{text-align: center; padding-top: 7px}
+.texto1{font-size: 0.95em; cursor: pointer}
+.texto2{font-size: 0.8em}
+.texto3{font-size: 0.7em}
+.texto4{font-size: 1.125em; margin: 0.1em 0em}
+.texto5{font-size: 1em; margin: 1em 0em 0.5em 0em}
+.texto6{
+	text-align: justify;
+}
+.icon1{
+	margin: 0em 0.5em;
+	border-radius: 0px;
+	width: 16px;
+	height: 16px;
+}
+.icon2{
+	margin: 0em 1em;
+	border-radius: 0px;
+	width: 32px;
+	height: 32px;
+}
+.icon3{
+	margin: 0.2em;
+	border-radius: 0px;
+	width: 25px;
+	height: 25px;
+}
+
+.agrupar{
+	width: 80%;
+	margin: 15px auto;
+	text-align: justify;
+}
+.cabecera{
+	text-align: center;
+	background: #80d7cc; /* SIN TRANSPARENCIA: rgb(128, 215, 204); */ /* CON TRANSPARENCIA: rgba(0, 175, 153, .5); */ /* CON TRANSPARENCIA: #00af99 */
+	border: 1px solid #999999;
+	padding: 30px;
+	border-radius: 0px; /* 10px */
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+}
+.menu{
+	background: #d2ddf0; /* SIN TRANSPARENCIA: rgb(210, 221, 240); */ /* CON TRANSPARENCIA: rgba(165, 186, 224, .5); */ /* CON TRANSPARENCIA: #a5bae0 */ /* ANTES ERA rgba(255, 255, 255, .5) */
+	margin: 0px; /* 10px 5px 0px 5px */
+	padding: 5px 15px;
+	text-align: center;
+	border-radius: 0px; /* 10px */
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+	position: relative;
+	z-index: 20;
+}
+.seccion{
+	float: left;
+	width: 55%;
+	margin: 40px 20px 40px 0px; /* 20px 20px 20px 0px */
+	text-align: justify;
+}
+.columna{
+	float: right;
+	width: 40%;
+	height: 420px;
+	margin: 40px 0px; /* 20px 0px */
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+.pie{
+	clear: both;
+	background: #cbcbcb; /* SIN TRANSPARENCIA: rgb(203, 203, 203); */ /* CON TRANSPARENCIA: rgba(150, 150, 150, .5); */ /* CON TRANSPARENCIA: #c8c6ba */ /* NO HABIA NADA, ESTO ES NUEVO */
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+.cabecera h1{
+	font-size: 3.6em;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+	margin: 15px 25px; /* NO HABIA NADA, ESTO ES NUEVO */
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition: all .9s ease;
+}
+.menu li:hover{
+	color: yellow; /* QUEDA SIN EFECTO AL ESPECIFICARSE: .menu li li a:hover */
+	border-radius: 10px;
+	transform: translateY(-10px);
+	box-shadow: 300px 0 #60c659 inset, /* 300px 0 #ff9338 inset */
+				-300px 0 #60c659 inset; /* -300px 0 #ff9338 inset */
+}
+.menu li li a:hover{
+	color: yellow; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+.menu li ul{
+	display: none;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.menu li{
+	position: relative;
+}
+.menu li ul{
+	position: absolute;
+}
+.menu li li{
+	background: #f0e68c;
+	display: block;
+	font-size: 11px;
+	width: 200px;
+	top: 100%;
+	margin: 15px; /* 10px */
+	border-radius: 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+.menu li li:hover{
+	background: #f0e68c;
+	transform: translateX(15px);
+	box-shadow: 250px 0 #1cce28 inset;
+}
+.menu li li li{
+	background: #87cefa; /* #c4d3dd */
+	display: block;
+	font-size: 10px;
+	width: 150px;
+	margin: 0px 0px 10px 5px; /* -5px 0px 10px -5px */
+	border-radius: 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+.menu li li li:hover{
+	color: moccasin; /* QUEDA SIN EFECTO AL ESPECIFICARSE: .menu li li li a:hover */
+	transform: translateX(0px);
+	box-shadow: 200px 0 #6495ed inset,
+				-200px 0 #6495ed inset;
+}
+.menu li li li a:hover{
+	color: moccasin; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+.menu ul ul ul{
+	left: 100%;
+	top: 0;
+}
+.menu a:hover{
+	color: white; /* lime */
+}
+header h1{
+	font: bold 1.65em garamond, castellar, verdana, sans-serif;
+	line-height: 1.3; /* NO HABIA NADA, ESTO ES NUEVO */
+	text-shadow: white 3px 3px 5px; /* rgba(150, 150, 150, .5) 3px 3px; */
+}
+article{
+	background: #d5eecb; /* SIN TRANSPARENCIA: rgb(213, 238, 203); */ /* CON TRANSPARENCIA: rgba(170, 221, 150, .5); */ /* CON TRANSPARENCIA: #aadd96 */
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+	line-height: 1.5; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+article header{
+	text-align: center;
+	padding: 10px;
+}
+article footer{
+	text-align: center;
+}
+article p{
+	padding: 20px 10px;
+}
+article ul{
+	padding: 20px 10px 0px 60px;
+	font-size: 1.25em;
+}
+article h1{
+	font: bold 1.65em ethnocentric, verdana, sans-serif;
+	text-shadow: rgba(150, 150, 150, .5) 3px 3px; /* rgba(150, 150, 150, .5) 2px 2px */
+}
+@font-face{
+	font-family: "ethnocentric";
+	src: url("../font/ethnocentric.ttf");
+}
+article h2{
+	font: bold 0.9em verdana, sans-serif;
+}
+article ul a:hover{
+	color: blue; /* NO HABIA NADA, ESTO ES NUEVO */
+	text-shadow: rgba(150, 150, 150, .5) 3px 3px; /* NO HABIA NADA, ESTO ES NUEVO */
+	font-size: 1.05em; /* NO HABIA NADA, ESTO ES NUEVO */
+	background:  #70cee2; /* NO HABIA NADA, ESTO ES NUEVO */
+	border-radius: 10px; /* NO HABIA NADA, ESTO ES NUEVO */
+}
+.boton{
+	display: inline-block;
+	background: #4682b4;
+	line-height: 3em;
+	padding: 0.2em 1.5em;
+	border-radius: 1.5em;
+	border: 1px solid #999999;
+}
+.boton:hover{
+	background: #00546b;
+}
+.boton:active{
+	background: #30383a;
+	transform: scale(.9);
+}
+aside figure{
+	background: none; /* rgba(244, 237, 124, .5) */ /* #f4ed7c */
+	border: 1px solid #999999;
+	padding: 0px;
+	border-radius: 10px;
+	box-shadow: rgba(150, 150, 150, .5) 2px 2px;
+}
+table{ /* NO HABIA NADA, ESTO ES NUEVO */
+	background: white;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 30px 0px;
+	width: 100%;
+	font-size: 1.25em;
+}
+tr:hover{ /* NO HABIA NADA, ESTO ES NUEVO */
+	background: #f4ed7c; /* #eee */
+}
+th{ /* NO HABIA NADA, ESTO ES NUEVO */
+	background: #eeeeee;
+	text-align: center;
+	line-height: 2;
+	border: 1px solid #999999;
+}
+td{ /* NO HABIA NADA, ESTO ES NUEVO */
+	text-align: center;
+	line-height: 1.5;
+	border: 1px solid #999999;
+}
